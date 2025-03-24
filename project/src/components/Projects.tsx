@@ -73,19 +73,19 @@ const Projects = () => {
     },
     {
       title: "my Own Portfolio",
-      description: "A content creation tool leveraging AI to help bloggers and marketers generate engaging content.",
+      description: "I created my React portfolio with a modern UI, vibrant colors, smooth scrolling, and sections for Skills, Projects, Certificates, Contact, and a dynamic Hero section.",
       tech: ["React"],
       github: "https://github.com/yourusername/ai-content-generator",
       contributors: ["Mithunan Jeyamohan"],
-      details: "Developed an AI-powered platform that generates blog posts, social media content, and email campaigns based on user inputs and preferences. The tool includes SEO optimization and sentiment analysis features."
+      details: "I have built my portfolio using React, featuring a modern UI design with a vibrant color theory and smooth scrolling for a seamless experience. It includes sections for Skills, Projects, Certificates, Contact Me, and a captivating Hero section to showcase my work effectively. "
     },
     {
       title: "University students and lectures management system (CLI)",
-      description: "An interactive website to buy medicines and health products while promoting wellness through exercise and nutrition tips.",
-      tech: ["Python",""],
-      github: "https://github.com/Mithuj/first-year-group-project-html-css-javascript.git",
-      contributors: ["Mithunan Jeyamohan", "Aathif", "Bathushan"],
-      details: "We have created an interactive website using HTML, CSS, and JavaScript, where users can easily buy medicines and health products. With a smooth add-to-cart and checkout process, shopping is hassle-free. Our homepage is engaging, and we also promote health awareness by sharing tips on nutrition, mental wellness, and exercise. A dedicated section offers workout guidance, and our feedback form helps us improve while building a health-conscious community."
+      description: "I developed a Marks Management System where only lecturers can input marks. It analyzes student performance, categorizes them as Pass, Intermediate, or Fail, and generates a graphical analysis using Python.",
+      tech: ["Python"],
+      github: "https://github.com/Mithuj",
+      contributors: ["Mithunan Jeyamohan"],
+      details: "I developed a Student and Lecturer Marks Management System where only lecturers can input marks. The system analyzes student progress and categorizes them as Pass, Intermediate, or Fail based on their performance. Once all marks are processed, it generates a graphical analysis showing student performance percentages. Built using Python, it utilizes a specialized library for data analysis and visualization."
     },
     
   ];
