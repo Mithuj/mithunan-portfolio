@@ -20,7 +20,7 @@ const certificates: Certificate[] = [
     issuer: "Hult Prize Sri Lanka",
     date: "2025",
     image: "../../../public/images/certificates/hultprize.jpg",
-    description: "Participated in an intensive AI bootcamp covering machine learning fundamentals, deep learning, and practical AI applications.",
+    description: "",
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const certificates: Certificate[] = [
     issuer: "HackerRank",
     date: "2024",
     image: "../../../public/images/certificates/java hackerRank.png",
-    description: "Recognition for active participation and contributions in IEEE student branch activities and technical events.",
+    description: "",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const certificates: Certificate[] = [
     issuer: "LinkedIn",
     date: "2024",
     image: "../../../public/images/certificates/java oop.png",
-    description: "Certificate of Recognition for participating in Haxmas 2024 hackathon in collaboration with Ascentic.",
+    description: "",
   },
   // Add more certificates here for testing "See More" functionality
   {
@@ -45,7 +45,7 @@ const certificates: Certificate[] = [
     issuer: "LinkedIn",
     date: "2025",
     image: "../../../public/images/certificates/Figma.png",
-    description: "Advanced React.js development certification covering modern practices and patterns.",
+    description: "",
   },
   {
     id: 5,
@@ -61,7 +61,7 @@ const certificates: Certificate[] = [
     issuer: "AIDSL",
     date: "2023",
     image: "../../../public/images/certificates/AIDSL.png",
-    description: "Comprehensive Spring Boot certification for enterprise application development.",
+    description: "",
   },
   {
     id: 7,
@@ -69,7 +69,7 @@ const certificates: Certificate[] = [
     issuer: "LinkedIn",
     date: "2024",
     image: "../../../public/images/certificates/React.png",
-    description: "Comprehensive Spring Boot certification for enterprise application development.",
+    description: "",
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ const certificates: Certificate[] = [
     issuer: "HackerRank",
     date: "2025",
     image: "../../../public/images/certificates/python.png",
-    description: "Comprehensive Spring Boot certification for enterprise application development.",
+    description: "",
   },
   
 ];
