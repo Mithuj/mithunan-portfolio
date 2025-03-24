@@ -112,14 +112,14 @@ const Hero = () => {
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
-                Get in Touch
+                Contact me
               </motion.a>
             </div>
             
             {/* Social icons */}
             <div className="flex items-center space-x-6 mt-8 justify-center md:justify-start">
               <motion.a 
-                href="https://github.com/mithunan" 
+                href="https://github.com/Mithuj" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-textDark hover:text-primary transition-colors duration-300"
@@ -129,7 +129,7 @@ const Hero = () => {
                 <Github size={22} />
               </motion.a>
               <motion.a 
-                href="https://www.linkedin.com/in/mithunan" 
+                href="https://www.linkedin.com/in/mithunan-jeyamohan-26566328a" 
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-textDark hover:text-primary transition-colors duration-300"
@@ -139,7 +139,7 @@ const Hero = () => {
                 <Linkedin size={22} />
               </motion.a>
               <motion.a 
-                href="mailto:mithunan.j@gmail.com"
+                href="mailto:jeyamohan.20230950@iit.ac.lk"
                 className="text-textDark hover:text-primary transition-colors duration-300"
                 whileHover={{ scale: 1.2, rotate: 10 }}
                 whileTap={{ scale: 0.9 }}
