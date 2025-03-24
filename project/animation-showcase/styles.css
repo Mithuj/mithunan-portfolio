@@ -1,0 +1,223 @@
+/* ...existing code... */
+
+/* Text Animation Styles */
+.text-animation-wrapper {
+    margin: 15px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 250px;
+    text-align: center;
+}
+
+.text-animation-wrapper h3 {
+    margin-bottom: 15px;
+    color: #34495e;
+    font-size: 18px;
+}
+
+/* Typewriter Effect */
+.typewriter {
+    overflow: hidden;
+    border-right: 3px solid #3498db;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    animation: 
+        typing 3.5s steps(40, end),
+        blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #3498db }
+}
+
+/* Letter Fade Effect */
+.letter-fade {
+    display: inline-block;
+}
+
+.letter-fade span {
+    opacity: 0;
+    display: inline-block;
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+/* Text Wave Effect */
+.text-wave span {
+    display: inline-block;
+    animation: wave 2s infinite;
+}
+
+@keyframes wave {
+    0%, 100% { transform: translateY(0); }
+    25% { transform: translateY(-10px); }
+    50% { transform: translateY(0); }
+    75% { transform: translateY(10px); }
+}
+
+/* 3D Flip Text */
+.text-3d-flip {
+    font-size: 24px;
+    font-weight: bold;
+    perspective: 500px;
+}
+
+.text-3d-flip span {
+    display: inline-block;
+    animation: flip3d 2.5s infinite;
+    transform-style: preserve-3d;
+}
+
+@keyframes flip3d {
+    0%, 100% { transform: rotateX(0deg) rotateY(0deg); }
+    25% { transform: rotateX(180deg) rotateY(0deg); }
+    50% { transform: rotateX(180deg) rotateY(180deg); }
+    75% { transform: rotateX(0deg) rotateY(180deg); }
+}
+
+/* Text Scramble Effect */
+#text-scramble {
+    font-family: monospace;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+/* Glitch Effect */
+.glitch-text {
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    color: #2c3e50;
+    letter-spacing: 5px;
+}
+
+.glitch-text::before,
+.glitch-text::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.glitch-text::before {
+    left: 2px;
+    text-shadow: -2px 0 #ff00c1;
+    clip: rect(44px, 450px, 56px, 0);
+    animation: glitch-anim 5s infinite linear alternate-reverse;
+}
+
+.glitch-text::after {
+    left: -2px;
+    text-shadow: -2px 0 #00fff9, 2px 2px #ff00c1;
+    clip: rect(44px, 450px, 56px, 0);
+    animation: glitch-anim2 5s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim {
+    0% { clip: rect(42px, 9999px, 36px, 0); }
+    5% { clip: rect(12px, 9999px, 66px, 0); }
+    10% { clip: rect(48px, 9999px, 27px, 0); }
+    15% { clip: rect(24px, 9999px, 88px, 0); }
+    20% { clip: rect(18px, 9999px, 17px, 0); }
+    25% { clip: rect(32px, 9999px, 71px, 0); }
+    30% { clip: rect(25px, 9999px, 56px, 0); }
+    35% { clip: rect(52px, 9999px, 75px, 0); }
+    40% { clip: rect(33px, 9999px, 10px, 0); }
+    45% { clip: rect(54px, 9999px, 84px, 0); }
+    50% { clip: rect(11px, 9999px, 59px, 0); }
+    55% { clip: rect(65px, 9999px, 6px, 0); }
+    60% { clip: rect(14px, 9999px, 87px, 0); }
+    65% { clip: rect(32px, 9999px, 5px, 0); }
+    70% { clip: rect(55px, 9999px, 42px, 0); }
+    75% { clip: rect(4px, 9999px, 57px, 0); }
+    80% { clip: rect(57px, 9999px, 18px, 0); }
+    85% { clip: rect(9px, 9999px, 40px, 0); }
+    90% { clip: rect(22px, 9999px, 96px, 0); }
+    95% { clip: rect(38px, 9999px, 23px, 0); }
+    100% { clip: rect(17px, 9999px, 48px, 0); }
+}
+
+@keyframes glitch-anim2 {
+    0% { clip: rect(65px, 9999px, 85px, 0); }
+    5% { clip: rect(52px, 9999px, 35px, 0); }
+    10% { clip: rect(79px, 9999px, 92px, 0); }
+    15% { clip: rect(22px, 9999px, 31px, 0); }
+    20% { clip: rect(6px, 9999px, 54px, 0); }
+    25% { clip: rect(21px, 9999px, 59px, 0); }
+    30% { clip: rect(38px, 9999px, 7px, 0); }
+    35% { clip: rect(86px, 9999px, 36px, 0); }
+    40% { clip: rect(38px, 9999px, 72px, 0); }
+    45% { clip: rect(1px, 9999px, 31px, 0); }
+    50% { clip: rect(18px, 9999px, 44px, 0); }
+    55% { clip: rect(71px, 9999px, 22px, 0); }
+    60% { clip: rect(13px, 9999px, 77px, 0); }
+    65% { clip: rect(44px, 9999px, 90px, 0); }
+    70% { clip: rect(67px, 9999px, 51px, 0); }
+    75% { clip: rect(91px, 9999px, 3px, 0); }
+    80% { clip: rect(33px, 9999px, 8px, 0); }
+    85% { clip: rect(94px, 9999px, 64px, 0); }
+    90% { clip: rect(26px, 9999px, 77px, 0); }
+    95% { clip: rect(56px, 9999px, 37px, 0); }
+    100% { clip: rect(62px, 9999px, 52px, 0); }
+}
+
+/* Gradient Text */
+.gradient-text {
+    font-size: 24px;
+    font-weight: bold;
+    background: linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: 200% auto;
+    animation: gradient-shift 3s linear infinite;
+}
+
+@keyframes gradient-shift {
+    to { background-position: 200% center; }
+}
+
+/* Reveal Text */
+.reveal-text {
+    position: relative;
+    color: transparent;
+    animation: reveal 3s infinite;
+}
+
+.reveal-text::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #3498db;
+    animation: reveal-swipe 3s infinite;
+}
+
+@keyframes reveal {
+    0% { color: transparent; }
+    50%, 100% { color: #333; }
+}
+
+@keyframes reveal-swipe {
+    0% { width: 0; left: 0; }
+    50% { width: 100%; left: 0; }
+    100% { width: 0; left: 100%; }
+}
+
+/* ...existing code... */

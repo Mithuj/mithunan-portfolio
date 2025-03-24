@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .glass-effect {
+    @apply bg-white/30 backdrop-blur-glass border border-white/20 shadow-glass;
+  }
+  
+  .neon-glow {
+    @apply shadow-neon transition-shadow duration-300 hover:shadow-neon-hover;
+  }
+  
+  .button-glow {
+    @apply relative overflow-hidden transition-all duration-300;
+  }
+  
+  .button-glow::before {
+    content: '';
+    @apply absolute inset-0 bg-gradient-to-r from-glow-primary via-glow-secondary to-glow-accent opacity-0 transition-opacity duration-300;
+  }
+  
+  .button-glow:hover::before {
+    @apply opacity-20;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+}
