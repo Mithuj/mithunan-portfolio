@@ -66,7 +66,7 @@ const About = () => {
               animate={inView ? "visible" : "hidden"}
             >
               I am a <span className="font-semibold text-primary">second-year B.Sc. (Hons) Computer Science student</span> specializing in full-stack development 
-              and software engineering. With a strong foundation in <span className="font-semibold text-secondary">React, Java, Spring Boot, and Python</span>, 
+              and software engineering. With a strong foundation in <span className="font-semibold text-secondary">Python, Java, JavaScript, web Development</span>, and I also have some handson experience <span className="font-semibold text-secondary">Node.js, React, and Spring Boot</span>.
               I've developed various applications ranging from real-time ticketing systems to AI-powered 
               healthcare solutions.
             </motion.p>
@@ -78,9 +78,9 @@ const About = () => {
               initial="hidden"
               animate={inView ? "visible" : "hidden"}
             >
-              Currently, I'm focusing on <span className="font-semibold text-primary">Machine Learning and intelligent applications</span>, with a passion for 
+              Currently, I'm focusing on <span className="font-semibold text-primary"> Full-Stack Development and Software Engineering</span>, with a passion for 
               building data-driven solutions that make a real impact. My experience includes working with 
-              modern technologies like <span className="font-semibold text-secondary">Supabase, TensorFlow, and various cloud platforms</span>.
+              modern technologies like <span className="font-semibold text-secondary">Supabase, TensorFlow, Ngrok, CI/CD pipeline, Machine Learning and various cloud platforms</span>.
             </motion.p>
             
             <motion.p 

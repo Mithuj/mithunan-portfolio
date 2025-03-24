@@ -48,7 +48,7 @@ const Header = () => {
     link.href = '/Mithunan Jeyamohan CV.pdf';
     
     // Set download attribute with the filename
-    link.download = 'Mithunan Jeyamohan CV.pdf';
+    link.download = 'mithunan jeyamohan CV.pdf';
     
     // Append to body, click, and remove
     document.body.appendChild(link);

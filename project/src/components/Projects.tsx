@@ -24,53 +24,70 @@ const Projects = () => {
   const projects: Project[] = [
     {
       title: "MemoRaid – Memory Rehabilitation App",
-      description: "An interactive application to assist individuals with amnesia using memory exercises, task management tools, and AI insights.",
-      tech: ["Dart", "Flutter", "NestJs", "React", "Supabase", "Gemini API"],
-      github: "https://github.com/yourusername/memoraid",
-      contributors: ["Mithunan Jeyamohan", "Team Member 2", "Team Member 3"],
-      details: "Developing an interactive application to assist individuals with amnesia using memory exercises, task management tools, and AI insights for cognitive health improvement. Features include caregiver integration and personalized rehabilitation plans."
+      description: "AI powered Amnesia Rehabilition App. mobile App and Web application",
+      tech: ["Dart", "Flutter", "React", "Node.js","Supabase store", "Supabase", "Gemini API", "Ngrok", "CI/CD pipeline", "Postman API"],
+      github: "https://github.com",
+      contributors: ["Mithunan Jeyamohan", " Avinesh", "Anushikan"," Rishaanth", "Linushankaran", "Shahinya"],
+      details: "Developing an interactive application to assist individuals with amnesia using memory exercises, task management tools, and AI insights for cognitive health improvement, Caregivers integration. ( for privacy we are not able to show the full details, contact me directly for more information)"
     },
     {
-      title: "Real-Time Ticketing Application",
+      title: "Real-Time Event Ticketing Application",
       description: "A full-stack application for event ticket management with real-time updates.",
-      tech: ["React", "Vite.js", "Spring Boot", "Java", "SQL"],
-      github: "https://github.com/yourusername/ticketing-app",
+      tech: ["React", "Spring Boot", "Java", "SQL"],
+      github: "https://github.com/Mithuj/Mithunan-Ticket-Booking-System--1.git",
       contributors: ["Mithunan Jeyamohan"],
       details: "Developed a full stack application where vendors can add tickets for their events, and customers can browse and purchase tickets in a simulated environment."
     },
     {
-      title: "Charity Donation Platform",
-      description: "A platform enabling users to support various charitable causes with secure transactions.",
+      title: "Charity Donation Platform (Ongoing)",
+      description: "A platform enabling users to support various charitable causes with secure transactions. ",
       tech: ["HTML5", "CSS", "JavaScript", "PHP", "Supabase"],
       github: "https://github.com/yourusername/charity-platform",
-      contributors: ["Mithunan Jeyamohan", "Team Member 2"],
-      details: "Platform features secure transactions, one-time or recurring donations, real-time project tracking, and impact notifications for transparent donor engagement."
+      contributors: ["Mithunan Jeyamohan", "christy Sharujan", "Kabishan", "Afra"],
+      details: "Platform features secure transactions, one-time or recurring donations, real-time project tracking, and impact notifications for transparent donor engagement. ( for privacy we are not able to show the full details, contact me directly for more information)"
     },
     // Additional projects for the "See More" feature
     {
-      title: "AI-Powered Content Generator",
+      title: "Real-Time Event Ticketing Application- CLI ",
       description: "A content creation tool leveraging AI to help bloggers and marketers generate engaging content.",
-      tech: ["Python", "TensorFlow", "React", "Node.js", "MongoDB"],
+      tech: ["Java"],
       github: "https://github.com/yourusername/ai-content-generator",
-      contributors: ["Mithunan Jeyamohan", "Team Member 3"],
+      contributors: ["Mithunan Jeyamohan"],
       details: "Developed an AI-powered platform that generates blog posts, social media content, and email campaigns based on user inputs and preferences. The tool includes SEO optimization and sentiment analysis features."
     },
     {
-      title: "IoT Smart Home Hub",
-      description: "A centralized smart home solution to control and monitor connected devices.",
-      tech: ["C++", "Arduino", "MQTT", "React Native", "Firebase"],
-      github: "https://github.com/yourusername/smart-home-hub",
-      contributors: ["Mithunan Jeyamohan"],
-      details: "Created a comprehensive IoT hub that connects various smart home devices from different manufacturers into a single interface. Features include automation rules, energy monitoring, and voice command integration."
+      title: "Your One-Stop Health & Wellness Store",
+      description: "An interactive website to buy medicines and health products while promoting wellness through exercise and nutrition tips.",
+      tech: ["HTML", "CSS", "JavaScript"],
+      github: "https://github.com/Mithuj/first-year-group-project-html-css-javascript.git",
+      contributors: ["Mithunan Jeyamohan", "Aathif", "Bathushan"],
+      details: "We have created an interactive website using HTML, CSS, and JavaScript, where users can easily buy medicines and health products. With a smooth add-to-cart and checkout process, shopping is hassle-free. Our homepage is engaging, and we also promote health awareness by sharing tips on nutrition, mental wellness, and exercise. A dedicated section offers workout guidance, and our feedback form helps us improve while building a health-conscious community."
     },
     {
-      title: "Blockchain Voting System",
-      description: "A secure and transparent voting platform built on blockchain technology.",
-      tech: ["Solidity", "Ethereum", "React", "Web3.js", "Node.js"],
-      github: "https://github.com/yourusername/blockchain-voting",
-      contributors: ["Mithunan Jeyamohan", "Team Member 2", "Team Member 4"],
-      details: "Engineered a decentralized voting system using blockchain to ensure transparency, security, and immutability of votes. The platform includes identity verification, real-time vote counting, and audit trails."
-    }
+      title: "Flight Ticket Booking - CLI",
+      description: "A Java-based flight booking system with error handling, allowing users to book, cancel, view seating, and manage tickets efficiently.",
+      tech: ["Java"],
+      github: "https://github.com/Mithuj/flight_ticket_booking.git",
+      contributors: ["Mithunan Jeyamohan"],
+      details: "I have developed a flight booking system entirely using Java, ensuring smooth and reliable functionality with perfect error handling. Users can effortlessly book flight tickets, cancel reservations, and find the first available seat. The system allows passengers to input their details, view seating arrangements, and check booked seats for better planning. Purchased tickets are securely stored in a text format for easy record-keeping. Additionally, managers have access to essential insights, including total tickets sold, revenue generated, and passenger details, enabling efficient management of the booking system."
+    },
+    {
+      title: "my Own Portfolio",
+      description: "A content creation tool leveraging AI to help bloggers and marketers generate engaging content.",
+      tech: ["React"],
+      github: "https://github.com/yourusername/ai-content-generator",
+      contributors: ["Mithunan Jeyamohan"],
+      details: "Developed an AI-powered platform that generates blog posts, social media content, and email campaigns based on user inputs and preferences. The tool includes SEO optimization and sentiment analysis features."
+    },
+    {
+      title: "University students and lectures management system (CLI)",
+      description: "An interactive website to buy medicines and health products while promoting wellness through exercise and nutrition tips.",
+      tech: ["Python",""],
+      github: "https://github.com/Mithuj/first-year-group-project-html-css-javascript.git",
+      contributors: ["Mithunan Jeyamohan", "Aathif", "Bathushan"],
+      details: "We have created an interactive website using HTML, CSS, and JavaScript, where users can easily buy medicines and health products. With a smooth add-to-cart and checkout process, shopping is hassle-free. Our homepage is engaging, and we also promote health awareness by sharing tips on nutrition, mental wellness, and exercise. A dedicated section offers workout guidance, and our feedback form helps us improve while building a health-conscious community."
+    },
+    
   ];
 
   // Determine which projects to display based on showAll state
